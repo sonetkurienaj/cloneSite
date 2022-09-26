@@ -178,6 +178,120 @@ body{
     
 }
 
+
+
+
+/* form section styling  */
+
+.contact-form{
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(14, 15, 15);
+    /* rgb(6, 70, 75) */
+    justify-content: space-around;
+
+}
+.contact-form .contact-text h1{
+    position: relative;
+    left: 0%;
+    
+ 
+    font-size: 3rem;
+    color: var(--h1-color);
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+
+.contact-form .contact-text p{
+    color:var(--text-color);
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        padding-top: 30px;
+        font-family: Tahoma, sans-serif;
+    
+
+}
+
+.form{
+    position: relative;
+    top: -30px;
+}
+
+.form form{
+    display: grid;
+    margin-top: 10px;
+    
+}
+
+
+
+
+
+
+.form form input{
+    position: relative;
+    left: -13px;
+    height: 30px;
+    width: 100%;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    
+}
+.form form input:focus {
+    outline: none;
+}
+
+
+
+
+.form form label{
+    position: relative;
+    top: 10px;
+}
+
+button{
+    top: -43px;
+    padding: 10px;
+    position: relative;
+    left: 200px;
+    border-radius: 50px;
+    border: none;
+    width: 80px;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* car  */
 
 
@@ -245,7 +359,7 @@ img:hover{
 
 /* footer style */
 #contact{
-    background-color: rgba(235, 235, 235, 0.932);
+    background-color: rgb(223, 240, 241);
 }
 .main{
     display: flex;
@@ -354,7 +468,7 @@ header{
        }
    
    
-.navbar {
+/* .navbar {
    display: grid;
    position: absolute;
    left:22%;
@@ -363,8 +477,8 @@ header{
    
 }
 .navbar:hover{
-    background-color: transparent;
-}
+    background-color:blue;
+} */
 
 
 
